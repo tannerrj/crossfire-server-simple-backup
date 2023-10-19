@@ -84,7 +84,9 @@ When you run this script, it will create tar file in the following format, `cros
 
 ## Contributing
 
-Contributions are welcome. Creating a fork on this code base is also welcome.
+ * Contributions are welcome.
+ * Pull requests are welcome.
+ * Creating a fork on this code base is also welcome.
 
 ## Questions:
 
