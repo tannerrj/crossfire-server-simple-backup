@@ -66,17 +66,17 @@ When you run this script, it will create tar file in the following format, `cros
  3. `banish_file`: file containing players banned or not allowed to play on the server
  4. `bookarch`: file that contains all the available readable book and scroll titles, along with the level of difficulty and other information
  5. `clockdata`: file used to track passage of time in-game
- 6. `crossfireboard`: content from the in-game message boards
- 7. `crossfiremail`: content from the in-game postal mail
+ 6. `crossfireboard`: binary file for content from the in-game message boards
+ 7. `crossfiremail`: binary file for content from the in-game postal mail
  8. `datafiles`: directory containing various log files for guilds, log file for events related to each player such as creation date and last login
- 9. `factions.db`: a not actively used component, but this logs reputation of players based on their actions and interactions with other monsters
+ 9. `factions.db`: binary file for a not actively used component, but this logs reputation of players based on their actions and interactions with other monsters
  10. `highscore`: file tracking overall level and ranking of players
  11. `highscores`: file tracking and ranking players experience scores for all the different skills types
- 12. `ImperialBank_DB`: content tracking banking system account balances and transactions
+ 12. `ImperialBank_DB`: binary file for content tracking banking system account balances and transactions
  13. `maps`: unknown
  14. `players`: old folder for player files?
- 15. `PShop`: content for tracking player shop data for maps found in Brittany
- 16. `SlotMachine_file`: content for tracking odds and payout for the in-game slot machines
+ 15. `PShop`: binary file for content for tracking player shop data for maps found in Brittany
+ 16. `SlotMachine_file`: binary file for content for tracking odds and payout for the in-game slot machines
  17. `template-maps`: unknown
  18. `temp.maps`: unknown
  19. `unique-items`: directory containing maps that have areas that do not reset
