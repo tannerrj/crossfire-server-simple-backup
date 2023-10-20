@@ -61,47 +61,47 @@ Save the script to a file (e.g., `backup_crossfire.sh`), make it executable with
 
 When you run this script, it will create tar file in the following format, `crossfire_backup_yearmonthyday_hourminutesecond.tar.gz` and backup the data in `/usr/games/crossfire/var/crossfire`:
 
- 1. `account`: directory of player files
- 2. `accounts`: file containing Account name:Password:Account last used:Characters (semicolon separated):created:expansion
- 3. `banish_file`: file containing players banned or not allowed to play on the server
- 4. `bookarch`: file that contains all the available readable book and scroll titles, along with the level of difficulty and other information
- 5. `clockdata`: file used to track passage of time in-game
- 6. `crossfireboard`: binary file for content from the in-game message boards
- 7. `crossfiremail`: binary file for content from the in-game postal mail
- 8. `datafiles`: directory containing various log files for guilds, log file for events related to each player such as creation date and last login
- 9. `factions.db`: binary file for a not actively used component, but this logs reputation of players based on their actions and interactions with other monsters
- 10. `highscore`: file tracking overall level and ranking of players
- 11. `highscores`: file tracking and ranking players experience scores for all the different skills types and includes:
-   * bowyer
-   * disarm_traps
-   * evocation
-   * find_traps
-   * flame_touch
-   * jeweler
-   * karate
-   * literacy
-   * lockpicking
-   * missile_weapons
-   * one_handed_weapons
-   * praying
-   * punching
-   * pyromancy
-   * sense_curse
-   * sense_magic
-   * smithery
-   * sorcery
-   * two_handed_weapons
-   * thaumaturgy
-   * use_magic_item
-   * woodsman
- 12. `ImperialBank_DB`: binary file for content tracking banking system account balances and transactions
- 13. `maps`: unknown
- 14. `players`: old folder for player files?
- 15. `PShop`: binary file for content for tracking player shop data for maps found in Brittany
- 16. `SlotMachine_file`: binary file for content for tracking odds and payout for the in-game slot machines
- 17. `template-maps`: unknown
- 18. `temp.maps`: unknown
- 19. `unique-items`: directory containing maps that have areas that do not reset
+ * `account`: directory of player files
+ * `accounts`: file containing Account name:Password:Account last used:Characters (semicolon separated):created:expansion
+ * `banish_file`: file containing players banned or not allowed to play on the server
+ * `bookarch`: file that contains all the available readable book and scroll titles, along with the level of difficulty and other information
+ * `clockdata`: file used to track passage of time in-game
+ * `crossfireboard`: binary file for content from the in-game message boards
+ * `crossfiremail`: binary file for content from the in-game postal mail
+ * `datafiles`: directory containing various log files for guilds, log file for events related to each player such as creation date and last login
+ * `factions.db`: binary file for a not actively used component, but this logs reputation of players based on their actions and interactions with other monsters
+ * `highscore`: file tracking overall level and ranking of players
+ * `highscores`: file tracking and ranking players experience scores for all the different skills types and includes:
+     * bowyer
+     * disarm_traps
+     * evocation
+     * find_traps
+     * flame_touch
+     * jeweler
+     * karate
+     * literacy
+     * lockpicking
+     * missile_weapons
+     * one_handed_weapons
+     * praying
+     * punching
+     * pyromancy
+     * sense_curse
+     * sense_magic
+     * smithery
+     * sorcery
+     * two_handed_weapons
+     * thaumaturgy
+     * use_magic_item
+     * woodsman
+ * `ImperialBank_DB`: binary file for content tracking banking system account balances and transactions
+ * `maps`: unknown
+ * `players`: old folder for player files?
+ * `PShop`: binary file for content for tracking player shop data for maps found in Brittany
+ * `SlotMachine_file`: binary file for content for tracking odds and payout for the in-game slot machines
+ * `template-maps`: unknown
+ * `temp.maps`: unknown
+ * `unique-items`: directory containing maps that have areas that do not reset
 
 
 ## Contributing
