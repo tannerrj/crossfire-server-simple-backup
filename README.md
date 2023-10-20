@@ -71,29 +71,50 @@ When you run this script, it will create tar file in the following format, `cros
  * `datafiles`: directory containing various log files for guilds, log file for events related to each player such as creation date and last login
  * `factions.db`: binary file for a not actively used component, but this logs reputation of players based on their actions and interactions with other monsters
  * `highscore`: file tracking overall level and ranking of players
- * `highscores`: file tracking and ranking players experience scores for all the different skills types and includes:
+ * `highscores`: file tracking and ranking players experience scores for all the different skills types and includes: (note - the individual skills files will be created and updated only if a player on the server has such a skill and uses the skill to gain experience points)
+     * alchemy
+     * bargaining
      * bowyer
+     * clawing
+     * climbing
      * disarm_traps
      * evocation
      * find_traps
+     * fishing
      * flame_touch
+     * hiding
+     * inscription
      * jeweler
+     * jumping
      * karate
+     * levitation
      * literacy
      * lockpicking
+     * meditation
+     * mining
      * missile_weapons
+     * mountaineer
      * one_handed_weapons
+     * oratory
      * praying
      * punching
      * pyromancy
      * sense_curse
      * sense_magic
+     * set_traps
+     * singing*
      * smithery
      * sorcery
+     * stealing*
+     * summoning
+     * thaumaturgy
+     * throwing
      * two_handed_weapons
      * thaumaturgy
      * use_magic_item
      * woodsman
+     * wraith_feed
+     * writing
  * `ImperialBank_DB`: binary file for content tracking banking system account balances and transactions
  * `maps`: unknown
  * `players`: old folder for player files?
