@@ -69,6 +69,8 @@ When you run this script, it will create tar file in the following format, `cros
  * `crossfireboard`: binary file for content from the in-game message boards
  * `crossfiremail`: binary file for content from the in-game postal mail
  * `datafiles`: directory containing various log files for guilds, log file for events related to each player such as creation date and last login
+     * `GuildHouse_log`: file that contains Guild status in the format of `#|Founded_Date|Points|Status|Quest_points`
+     * `Player_log`: file containing all player files in the format of `#|Born|IP|Last_Login_Date|Login_Count|Kick_Count|Last_Kick_Date|Muzzle_Count|Last_Muzzle_Date`
  * `factions.db`: binary file for a not actively used component, but this logs reputation of players based on their actions and interactions with other monsters
  * `highscore`: file tracking overall level and ranking of players
  * `highscores`: file tracking and ranking players experience scores for all the different skills types and includes: (note - the individual skills files will be created and updated only if a player on the server has such a skill and uses the skill to gain experience points)
