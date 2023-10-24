@@ -61,7 +61,10 @@ Save the script to a file (e.g., `backup_crossfire.sh`), make it executable with
 
 When you run this script, it will create tar file in the following format, `crossfire_backup_yearmonthyday_hourminutesecond.tar.gz` and backup the data in `/usr/games/crossfire/var/crossfire`:
 
- * `account`: directory of player files
+ * `account`: directory of player files and unique apartment maps
+    * Player files: files that start with the player's name and ends in .pl (i.e., `Bart.pl`)
+      * Player content files: Files that start with the player's name and ends in .knowledge and .quest (i.e., `Bart.knowledge` and `Bart.quest`)
+    * Apartment files: unique maps that only the player/owner can enter, or DM can enter if the player is in said map; the files start with an underscore and contain a map name and location reference (i.e., `_scorn_apartment_apartments`)
  * `accounts`: file containing Account name:Password:Account last used:Characters (semicolon separated):created:expansion
  * `banish_file`: file containing players banned or not allowed to play on the server
  * `bookarch`: file that contains all the available readable book and scroll titles, along with the level of difficulty and other information
