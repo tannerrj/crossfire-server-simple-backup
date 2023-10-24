@@ -107,10 +107,10 @@ When you run this script, it will create tar file in the following format, `cros
      * sense_curse
      * sense_magic
      * set_traps
-     * singing*
+     * singing
      * smithery
      * sorcery
-     * stealing*
+     * stealing
      * summoning
      * thaumaturgy
      * throwing
