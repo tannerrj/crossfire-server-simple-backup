@@ -143,3 +143,9 @@ I can be reached via [tannerrj GitHub Profile](https://github.com/tannerrj)
 ## License:
 
 MIT License
+
+## Crossfire Social Media Links
+
+ * [Facebook](https://www.facebook.com/crossfireproject/)
+ * [Mastodon](https://mastodon.social/@crossfiremrpg)
+ * [X (Formerly Twitter)](https://twitter.com/crossfiremrpg/)
