@@ -139,3 +139,7 @@ When you run this script, it will create tar file in the following format, `cros
 ## Questions:
 
 I can be reached via [tannerrj GitHub Profile](https://github.com/tannerrj)
+
+## License:
+
+MIT License
