@@ -18,9 +18,10 @@ if [ $? -eq 0 ]; then
   echo "Backup created successfully: $backup_filename"
 else
   echo "Backup creation failed."
+  exit 1
 fi
 
-# Check if the backup file exists after creation.
+# Check if the backup file exists after creation
 if [ -e "$backup_filename" ]; then
   echo "Backup file exists: $backup_filename"
 else
