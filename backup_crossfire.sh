@@ -19,3 +19,10 @@ if [ $? -eq 0 ]; then
 else
   echo "Backup creation failed."
 fi
+
+# Check if the backup file exists after creation.
+if [ -e "$backup_filename" ]; then
+  echo "Backup file exists: $backup_filename"
+else
+  echo "Error: Backup file not found: $backup_filename"
+fi
