@@ -26,4 +26,5 @@ if [ -e "$backup_filename" ]; then
   echo "Backup file exists: $backup_filename"
 else
   echo "Error: Backup file not found: $backup_filename"
+  exit 1
 fi
