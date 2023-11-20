@@ -6,7 +6,7 @@ backup_filename="crossfire_backup_$(date +'%Y%m%d_%H%M%S').tar.gz"
 
 # Check if the source directory exists
 if [ ! -d "$src_dir" ]; then
-  echo "Source directory does not exist: $src_dir"
+  echo "Error: Source directory does not exist: $src_dir"
   exit 1
 fi
 
