@@ -17,7 +17,7 @@ tar -czvf "$backup_filename" "$src_dir"
 if [ $? -eq 0 ]; then
   echo "Backup created successfully: $backup_filename"
 else
-  echo "Backup creation failed."
+  echo "Error: Backup creation failed."
   exit 1
 fi
 
