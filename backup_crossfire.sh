@@ -13,6 +13,7 @@ fi
 # Create the tar.gz backup
 tar -czvf "$backup_filename" "$src_dir"
 
+# Check the exit status of the tar command
 if [ $? -eq 0 ]; then
   echo "Backup created successfully: $backup_filename"
 else
