@@ -18,30 +18,17 @@ The script is also design to be run as the same user or with RW permission to th
 
 Once the software is downloaded or pulled via git:
 
-```bash
-#!/bin/bash
+ 1. Change (`cd`) to the directory where the script is located (e.g., `cd script`)
+ 2. Make the backup script executable with the `chmod +x backup_crossfire.sh` command
+ 3. Run the command with `./backup_crossfire.sh`
+ 4. This script will create a tar.gz backup of the specified directory with a timestamp in the filename
 
-# Define the source directory and backup filename
-src_dir="/usr/games/crossfire/var/crossfire"
-backup_filename="crossfire_backup_$(date +'%Y%m%d_%H%M%S').tar.gz"
+The successful backup and output of the script should look like this:
 
-# Check if the source directory exists
-if [ ! -d "$src_dir" ]; then
-  echo "Source directory does not exist: $src_dir"
-  exit 1
-fi
-
-# Create the tar.gz backup
-tar -czvf "$backup_filename" "$src_dir"
-
-if [ $? -eq 0 ]; then
-  echo "Backup created successfully: $backup_filename"
-else
-  echo "Backup creation failed."
-fi
 ```
-
-Save the script to a file (e.g., `backup_crossfire.sh`), make it executable with the `chmod +x backup_crossfire.sh` command, and then run it with `./backup_crossfire.sh`. This script will create a tar.gz backup of the specified directory with a timestamp in the filename.
+Backup created successfully: crossfire_backup_20231121_152754.tar.gz
+Backup file exists: crossfire_backup_20231121_152754.tar.gz
+```
 
 ## Guidelines
 
