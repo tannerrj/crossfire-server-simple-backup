@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Define the source directory and backup filename
+# Step 1: Define the source directory and backup filename
 src_dir="/usr/games/crossfire/var/crossfire"
 backup_filename="crossfire_backup_$(date +'%Y%m%d_%H%M%S').tar.gz"
 
