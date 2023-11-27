@@ -4,13 +4,13 @@
 src_dir="/usr/games/crossfire/var/crossfire"
 backup_filename="crossfire_backup_$(date +'%Y%m%d_%H%M%S').tar.gz"
 
-# Step 2:Check if the source directory exists
+# Step 2: Check if the source directory exists
 if [ ! -d "$src_dir" ]; then
   echo "Error: Source directory does not exist: $src_dir"
   exit 1
 fi
 
-# Create the tar.gz backup
+# Step 3: Create the tar.gz backup
 tar -czvf "$backup_filename" "$src_dir"
 
 # Check the exit status of the tar command
