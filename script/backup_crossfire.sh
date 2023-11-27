@@ -21,7 +21,7 @@ else
   exit 1
 fi
 
-# Check if the backup file exists after creation
+# Step 5: Check if the backup file exists after creation
 if [ -e "$backup_filename" ]; then
   echo "Backup file exists: $backup_filename"
 else
