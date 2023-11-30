@@ -2,26 +2,26 @@
 
 ## Description
 
-A bash script that creates a tar.gz backup with a date stamp in the file name of the following directory /usr/games/crossfire/var/crossfire
+This is a bash script that creates a tar.gz backup of the `/usr/games/crossfire/var/crossfire` directory, with a date stamp in the filename.
 
 ## Installation
 
-It is helpful to have git installed to download all the related code for `Crossfire Server (Simple) Backup`
+It is helpful to have Git installed to download all the related code for the `Crossfire Server (Simple) Backup`.
 
 ### Requirements
 
-The script requires a fully installed and working Crossfire server, instructions on how to do that can be found on the [Crossfire Wiki](http://wiki.cross-fire.org/dokuwiki/doku.php/server:server_compiling)
+The script requires a fully installed and working Crossfire server. Instructions on how to set up the server can be found on the [Crossfire Wiki](http://wiki.cross-fire.org/dokuwiki/doku.php/server:server_compiling).
 
-The script is also design to be run as the same user or with RW permission to the directory where all the game content is stored, `/usr/games/crossfire/var/crossfire`
+The script is designed to be run by the same user or with read and write (RW) permissions to the directory where all the game content is stored (`/usr/games/crossfire/var/crossfire`).
 
 ## Usage
 
-Once the software is downloaded or pulled via git:
+Once the software is downloaded or pulled via Git:
 
- 1. Change (`cd`) to the directory where the script is located (e.g., `cd script`)
- 2. Make the backup script executable with the `chmod +x backup_crossfire.sh` command
- 3. Run the command with `./backup_crossfire.sh`
- 4. This script will create a tar.gz backup of the specified directory with a timestamp in the filename
+ 1. Change (`cd`) to the directory where the script is located (e.g., `cd script`).
+ 2. Make the backup script executable with the `chmod +x backup_crossfire.sh` command.
+ 3. Run the command with `./backup_crossfire.sh`.
+ 4. This script will create a tar.gz backup of the specified directory with a timestamp in the filename.
 
 The successful backup and output of the script should look like this:
 
@@ -35,26 +35,25 @@ Backup file exists: crossfire_backup_20231121_152754.tar.gz
 ### Description: Questions to Consider
 
  * What is the app for?
-   * Anyone who is running a Crossfire server and wants to ensure player account data is backed up and saved
+   * This app is for anyone running a Crossfire server who wants to ensure player account data is backed up and saved.
  * What was your motivation?
-   * Working on a gaming project of [Crossfire](https://sourceforge.net/projects/crossfire/), I sometimes encounter a question on [Discord](https://crossfire.real-time.com/discord/) or [IRC](https://crossfire.real-time.com/irc/) or within one of the game servers about backing up player data, so I collected enough info to create this bash script
+   * I developed this script while working on a gaming project of [Crossfire](https://sourceforge.net/projects/crossfire/). I often encountered questions on [Discord](https://crossfire.real-time.com/discord/) or [IRC](https://crossfire.real-time.com/irc/) or within game servers about backing up player data, so I collected enough information to create this bash script.
  * What problem does it solve?
-   * Quickly provides simple backup of player data, login account data, and unique maps such as guilds and apartments
+   * It provides a quick and simple backup of player data, including login account data and unique maps such as guilds and apartments.
  * What else should people know about this script?
-    * This does not create an incremental backup, this is a backup of all in-game data when the script runs
-
+   * This does not create an incremental backup; it backs up all in-game data each time the script runs.
 
 ## Usage:
 
-When you run this script, it will create tar file in the following format, `crossfire_backup_yearmonthyday_hourminutesecond.tar.gz` and backup the data in `/usr/games/crossfire/var/crossfire`:
+When you run this script, it will create a tar file in the following format: `crossfire_backup_yearmonthday_hourminutesecond.tar.gz` and backup the data in `/usr/games/crossfire/var/crossfire`.
 
  * `account`: directory of player files and unique apartment maps
-    * Player files: files that start with the player's name and ends in .pl (i.e., `Bart.pl`)
-      * Player content files: Files that start with the player's name and ends in .knowledge and .quest (i.e., `Bart.knowledge` and `Bart.quest`)
-    * Apartment files: unique maps that only the player/owner can enter, or DM can enter if the player is in said map; the files start with an underscore and contain a map name and location reference (i.e., `_scorn_apartment_apartments`)
- * `accounts`: file containing Account name:Password:Account last used:Characters (semicolon separated):created:expansion
- * `banish_file`: file containing players banned or not allowed to play on the server
- * `bookarch`: file that contains all the available readable book and scroll titles, along with the level of difficulty and other information
+  * Player files: files that start with the player's name and end in .pl (e.g., `Bart.pl`)
+    * Player content files: Files that start with the player's name and end in .knowledge and .quest (e.g., `Bart.knowledge` and `Bart.quest`)
+  * Apartment files: unique maps that only the player/owner can enter or DM can enter if the player is in the map; files start with an underscore and contain a map name and location reference (e.g., `_scorn_apartment_apartments`).
+ * `accounts`: file containing Account name:Password:Account last used:Characters (semicolon separated):created:expansion.
+ * `banish_file`: file containing players banned or not allowed to play on the server.
+ * `bookarch`: file that contains all the available readable book and scroll titles, along with the level of difficulty and other information.
  * `clockdata`: file used to track passage of time in-game
  * `crossfireboard`: binary file for content from the in-game message boards
  * `crossfiremail`: binary file for content from the in-game postal mail
