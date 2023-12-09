@@ -26,8 +26,10 @@ Once the software is downloaded or pulled via Git:
 The successful backup and output of the script should look like this:
 
 ```
+
 Backup created successfully: crossfire_backup_20231121_152754.tar.gz
 Backup file exists: crossfire_backup_20231121_152754.tar.gz
+
 ```
 
 ## Guidelines
