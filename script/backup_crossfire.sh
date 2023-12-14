@@ -3,6 +3,7 @@
 # Script: backup_crossfire.sh
 # Author: Rick Tanner via ChatGPT
 # Description: This script creates a tar.gz backup of the `/usr/games/crossfire/var/crossfire` directory, with a date stamp in the filename.
+# Project URL: https://github.com/tannerrj/crossfire-server-simple-backup
 
 # Step 1: Define the source directory and backup filename
 src_dir="/usr/games/crossfire/var/crossfire"
