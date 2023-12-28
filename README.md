@@ -43,7 +43,7 @@ Backup file exists: crossfire_backup_20231121_152754.tar.gz
  * What problem does it solve?
    * It provides a quick and simple backup of player data, including login account data and unique maps such as guilds and apartments.
  * What else should people know about this script?
-   * This does not create an incremental backup; it backs up all in-game data each time the script runs.
+   * This does NOT create an incremental backup; it backs up all in-game data each time the script runs.
 
 ## Usage:
 
