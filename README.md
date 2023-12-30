@@ -115,7 +115,7 @@ When you run this script, it will create a tar file in the following format: `cr
  * `SlotMachine_file`: binary file for content for tracking odds and payout for the in-game slot machines
  * `template-maps`: unknown
  * `temp.maps`: unknown
- * `unique-items`: directory containing maps that have areas that do not reset
+ * `unique-items`: directory containing maps that have areas that do not reset such as certain world maps, HallOfDMs, et al.
 
 
 ## Contributing
